@@ -1,0 +1,115 @@
+.pokeCard { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: calc(100% - 150px);
+  width: 80%;
+  background-color: bisque;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 1000%;
+}
+
+.catch{
+  font-size: 3rem;
+  margin-bottom: 100px;
+}
+.title{
+  background-color: azure;
+}
+.its{
+  font-size: 1.5rem;
+}
+.name{
+  font-size: 2.2rem;
+  font-style: oblique;
+}
+
+.icon{
+    width: 700px;
+    height: auto;
+}
+
+
+.table__stat{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100px;
+
+}
+span{
+  padding-left: 0.8rem;
+}
+
+.stat__icon{
+  height: auto;
+}
+
+.health_icon{
+  width: 2.6rem;
+  margin: -1rem;
+}
+
+.attack_icon{
+  width:1rem;
+  margin-left: -0.1rem;
+  margin-right: -0.1rem;
+}
+
+.defense_icon{
+  width:1rem;
+  margin-left:-0.2rem;
+  margin-right: -0.2rem;
+}
+
+.icon,
+.icon:after {
+    position: relative;
+    animation: apperance 0.5s ease-in forwards;
+}
+
+.icon__pokedex{
+  position: relative;
+  rotate: -7deg;
+  animation: levitation 2.5s steps(5, end) infinite,
+              apperance 0.5s ease-in forwards;
+}
+
+.types{
+  border: 0px solid grey;
+  margin-bottom: -0.2rem;
+  text-align: center;
+  padding: 0 5px;
+  max-width: min-content;
+}
+
+@keyframes apperance {
+  from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+
+@keyframes levitation {
+  0% {
+    top: -20px;
+  }
+  50%{
+    top:20px;
+  }
+  100% {
+    top: -20px;
+  }
+}
+
+

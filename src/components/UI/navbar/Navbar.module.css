@@ -1,0 +1,67 @@
+.Nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100wh;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.resourses{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.resourses a{
+    padding: 5px 10px;
+}
+
+.radioBtn{
+    align-self: center;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 60%;
+}
+
+.home,
+.pokedex,
+.pokemon,
+.allPokemons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.home span,
+.pokedex span,
+.pokemon span{
+    margin-left: 5px;
+}
+
+.logo__icon {
+    width: 100px;
+}
+
+.home__icon{
+    max-width: 40px;
+}
+
+.pokedex__icon{
+    max-width: 40px;
+}
+
+.pokemon__icon{
+    max-width: 40px;
+}
+
+.navSelect{
+    width: 500px;
+}

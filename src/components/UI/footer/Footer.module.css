@@ -1,0 +1,14 @@
+.footer{
+    padding: 5px 0;
+    display: flex;
+    justify-content: center;
+    max-height: 65px;
+
+}
+.footer__icon{
+    max-height: 50px;
+    width: 50px;
+    margin: 0 100px;
+    background-color: aliceblue;
+    border-radius: 5px;
+}

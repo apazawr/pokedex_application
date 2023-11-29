@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border-image-repeat: initial; */
+    font-size: 0.8rem;
+}
+
+#root {
+    height: 100vh;
+    width: 100wh;
+    overflow-x:hidden;
+}
+
+.App {
+    margin: 0 auto;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0 50px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}

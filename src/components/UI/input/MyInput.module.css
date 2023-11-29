@@ -1,0 +1,9 @@
+.myInp{
+    width: max-content;
+}
+
+.inp{
+    border-image-outset: 1;
+    height: 45px;
+    width: max-content;
+}

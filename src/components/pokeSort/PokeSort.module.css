@@ -1,0 +1,29 @@
+.pokeSort{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: bisque;
+    height: 60px;
+    margin-bottom: 5px !important;
+    margin-top: -10px !important;
+}
+
+.pokeSort__showSelect {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pokeSort__showSelect span{
+    margin-right: 20px;
+}
+
+.pokeSort__showSelect,
+.pokeSort__select,
+.pokeSort__input,
+.pokeSort__btn {
+    width: 25%;
+}

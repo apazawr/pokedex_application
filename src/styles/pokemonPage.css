@@ -1,0 +1,143 @@
+.pokemonPage{
+    height: 100%;
+    width: 100%;
+    flex: 1 1 auto;
+    justify-content: center;
+}
+
+.pokemonPage__baseContent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px !important;
+    background-color: bisque;
+}
+
+.pokemonPage__icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+}
+
+.pokemonPage__img{
+    height: 100%;
+}
+
+.pokemonPage__baseStats{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 65%;
+}
+
+.pokemonPage__baseStats_flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.pokemonPage__baseStats_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+}
+
+.baseStats{
+    padding-top: 10px;
+}
+
+.type{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+}
+
+.pokemon__type{
+    padding: 0 5px;
+    margin: -3px 5px 0 5px;
+    border:1px solid gray;
+    border-radius: 5px;
+}
+
+
+
+.pokemonPage__baseStats_stats{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pokemonPage__baseStats_stats progress {
+    height: 20px;
+    width: 40%;
+}
+
+.stat__name{
+    display: flex;
+    width: 50%;
+    flex-wrap: nowrap;
+    min-width: max-content;
+}
+
+.stat__value{
+    width: 10%;
+}
+
+
+.pokemonPage__moves{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: bisque;
+}
+
+.pokemonPage__moves ul{
+    column-count: 10;
+}
+
+.pokemonPage__moves li{
+    break-inside: avoid-column;
+}
+
+.progresses__flex_stat{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.pokemonPage__option{
+    font-size: 1.3rem;
+    padding: 10px 0;
+}
+.name{
+    font-size: 2rem;
+}
+
+.additionally{
+    font-size: 1.5rem;
+    padding-left: 15px;
+}
+.held{}
+.abilities{}
+
+
+
+
+
+
+
+
+
+

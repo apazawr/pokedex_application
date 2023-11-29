@@ -1,0 +1,9 @@
+.upDownBtn{
+    font-size: 20px;
+    padding: 5px 15px 10px 10px;
+    height: 36px;
+}
+
+.rotated {
+    transform: rotate(90deg);
+}

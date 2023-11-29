@@ -1,0 +1,29 @@
+.pokedex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: none !important;
+    overflow: hidden;
+}
+.pokedex__context{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+    height: 100%;
+    width: 100%;
+}
+.pokedex__tablebar, .pokedex__listbar{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokedex__listbar{
+    flex-direction: column;
+}
+
